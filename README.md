@@ -12,6 +12,7 @@ Step 3: From the directory where the git repo was cloned to, run the command ./m
 ## Active Links
 Login   
 Sign up    
+Welcome page  
 
 ## Inactive Links
 ### These links are placeholders and awaiting functionality in future labs
