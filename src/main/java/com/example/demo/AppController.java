@@ -1,4 +1,4 @@
-package com.example.demo.controller;
+package com.example.demo;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -10,8 +10,6 @@ public class AppController {
     public String welcomePage() {
         return "welcome_page";
     }
-
-
 
     // Endpoint for the login (or quiz home) page
     @GetMapping("/quiz_home")
