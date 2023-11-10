@@ -10,7 +10,7 @@ Step 2: From the directory where the git repo was cloned into, run the command .
 Step 3: From the directory where the git repo was cloned to, run the command ./mvnw spring-boot:run. The app can then be accessed at the url: http://localhost:8093/  
 
 NOTES ON CURRENT FUNCTIONALITY:
-Users are prompted to enter login credentials at the the login screen. Basic checks are performed
+Users are prompted to enter login credentials at the login screen. Basic checks are performed
 on the information the user enters, but there is no formal login process in place - all users are directed to the login page where they can begin a quiz.
 
-Scoring has not yet been implemented. As such, when selected an answer to a quiz question, the page will ismply refresh with a new question.
+Scoring has not yet been implemented. As such, when selecting an answer to a quiz question, the page will simply refresh with a new question.
