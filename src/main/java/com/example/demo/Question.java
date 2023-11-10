@@ -1,37 +1,27 @@
 package com.example.demo;
-import java.util.UUID;
-import java.util.List;
+
 public class Question {
-    public UUID uuid;
-    public String question;
-    public boolean isCorrect;
-
-    public Question(String question, boolean isCorrect) {
+    private String question;
+    private boolean isCorrect;
+    
+    public Question(String question, boolean correct) {
         this.question = question;
-        this.isCorrect = isCorrect;
-    }
-
-    public UUID getUuid() {
-        return uuid;
-    }
-
-    public void setUuid(UUID uuid) {
-        this.uuid = uuid;
-    }
-
-    public String getQuestion() {
-        return question;
+        this.isCorrect = correct;
     }
 
     public void setQuestion(String question) {
         this.question = question;
     }
 
-    public boolean isCorrect() {
-        return isCorrect;
+    public void setCorrect(boolean correct) {
+        this.isCorrect = correct;
     }
 
-    public void setCorrect(boolean isCorrect) {
-        this.isCorrect = isCorrect;
-    };
+    public String getQuestion() {
+        return this.question;
+    }
+
+    public boolean getCorrect() {
+        return this.isCorrect;
+    }
 }

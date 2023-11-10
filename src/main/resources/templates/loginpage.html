@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+    <head> 
+        <title>Login Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    </head>
+    <body>
+        <form>
+            <p><b>Logged in as:</b></p>
+            <p th:text="'email: ' + ${loginCreds.email}" />
+            <p th:text="'password: ' + ${loginCreds.password}" />            
+        </form>
+
+        <form action="#" th:action="@{/proxy/8092/question}" th:object="${question}" method="post">
+            <p><input type="submit" value="Start quiz" />
+        </form>
+    </body>
+</html>
